@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Menu {
 
+  call_about(id_path: number){
+    console.log(id_path);
+  }
+
 }
