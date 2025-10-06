@@ -1,0 +1,30 @@
+.transparent-btn{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover{
+        background-color: #ffffff;
+        color: #002447;
+        transition: 0.5s;
+    }
+}
+
+.header-color{
+    background-color: transparent
+}
+
+.dropdown-menu li{
+    :hover{
+        background-color: #002447;
+        color: white;
+    }
+}
